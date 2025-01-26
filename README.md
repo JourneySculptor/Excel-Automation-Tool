@@ -3,6 +3,10 @@
 ## Overview
 The **Excel-Automation-Tool** is a Python-based solution designed to streamline Excel data processing and automate repetitive tasks. This tool is ideal for businesses looking to improve efficiency by filtering data, generating reports, and integrating with cloud platforms like Google Sheets.
 
+**Documentation Available in Multiple Languages**
+- [English README.md](README.md) - This document.
+- [日本語 README_ja.md](README_ja.md) - 日本語ドキュメントはこちら。
+
 ## Features
 - **User Input Support**: Allows users to specify an Excel file for processing.
 - **Data Filtering**: Automatically filters data based on sales thresholds.
@@ -23,6 +27,7 @@ Excel-Automation-Tool/
 │── main.py              # Main Python script
 │── requirements.txt     # Dependencies file
 │── README.md            # Documentation file
+│── README_ja.md         # Documentation file in Japanese (日本語のドキュメント)
 │── credentials.json     # Google Sheets API credentials (not included in GitHub)
 ```
 
@@ -64,7 +69,7 @@ If configured correctly, the filtered data is uploaded to Google Sheets.
 
 ### Google Sheets Setup
 To enable Google Sheets integration:
-1. Create a **Google Cloud project** and enable the **Google Sheets API**.
+1. Create a **Google Cloud project** and enable the **Google Sheets API**. 👉 [Google Cloud Console](https://console.cloud.google.com/)
 2. Generate a **Service Account Key** (`credentials.json`).
 3. Place `credentials.json` in the **project root directory** (`Excel-Automation-Tool/`).
 4. Run the script to automatically upload data to Google Sheets.
@@ -75,6 +80,9 @@ To enable Google Sheets integration:
 - Implement GUI for non-technical users.
 - Add email automation for sending reports.
 - Enhance error handling for better user experience.
+
+💡 **Got ideas or found a bug?**  
+Feel free to open an issue on [GitHub Issues](https://github.com/JourneySculptor/Excel-Automation-Tool/issues) to share your feedback!
 
 ## License
 This project is licensed under the MIT License.
