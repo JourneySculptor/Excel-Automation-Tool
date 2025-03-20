@@ -1,18 +1,20 @@
 # Excel-Automation-Tool
 
 ## Overview
-The **Excel-Automation-Tool** is a Python-based solution designed to streamline Excel data processing and automate repetitive tasks. This tool is ideal for businesses looking to improve efficiency by filtering data, generating reports, and integrating with cloud platforms like Google Sheets.
+The **Excel-Automation-Tool** is a business automation tool designed for **office workers, administrative professionals, and IT support staff** to improve productivity by **automating Excel tasks, reducing manual workload, and enhancing accuracy.**  
+With this tool, users can efficiently process large amounts of data without advanced programming knowledge.
 
 **Documentation Available in Multiple Languages**
 - [English README.md](README.md) - This document.
 - [日本語 README_ja.md](README_ja.md) - 日本語ドキュメントはこちら。
 
 ## Features
-- **User Input Support**: Allows users to specify an Excel file for processing.
-- **Data Filtering**: Automatically filters data based on sales thresholds.
-- **Graph Generation**: Creates bar charts visualizing sales data by category.
-- **PDF Report Generation**: Exports a summarized sales report in PDF format.
-- **Google Sheets Integration**: Uploads processed data to Google Sheets for easy access.
+- **Automated Data Processing**: Enables office workers to efficiently process Excel files without manual effort.
+- **Data Filtering**: Automatically extracts relevant data based on pre-set conditions.
+- **Graph Generation**: Visualizes sales and business data with bar charts.
+- **PDF Report Generation**: Exports summarized data in a well-structured PDF report.
+- **Google Sheets Integration**: Allows seamless sharing of processed data via Google Sheets.
+- **No programming skills required!** This tool is designed for office workers, business analysts, and IT support professionals.
 
 ## Project Structure
 The project follows this directory structure:
